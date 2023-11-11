@@ -20,8 +20,8 @@ header{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding: 25px 7%;
-	background: transparent;
+	padding: 20px 50px 1px 10px;
+	background: #113838;
 }
 
 .logo-nome-fisio{
