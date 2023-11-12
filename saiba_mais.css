@@ -96,7 +96,8 @@ span{
 .logo img{
 	width: 90%;
 	border-radius: 50%;
-	border: 2px solid white;
+	border: .5rem solid transparent;
+	outline: .5rem solid #79e3bd;
 }
 /*.logo .circle-spin{
 	position: absolute;
