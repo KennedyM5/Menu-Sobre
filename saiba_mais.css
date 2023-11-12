@@ -69,15 +69,20 @@ header{
 span{
 	color: #79e3bd;
 }
-.sobre h2{
+.sobre-texto{
+	display: flex;
+	margin: 50px 50px 50px 50px;
+	justify-content: center;
+	flex-direction: column;
+	gap: 2rem;
+}
+.sobre-texto h2{
 	margin-top: 30px;
 	font-size: 30px;
-	text-align: center;
 	color: aliceblue;
 }
-.sobre p{
+.sobre-texto p{
 	font-size: 22px;
-	text-align: center;
 	color: aliceblue;
 }
 .logo{
@@ -111,7 +116,6 @@ span{
 	display: flex;
 	margin: 50px 50px 50px 50px;
 	justify-content: center;
-	align-items: center;
 	flex-direction: column;
 	gap: 2rem;
 }
@@ -121,7 +125,22 @@ span{
 }
 .framework p{
 	font-size: 22px;
-	text-align: center;
+	color: aliceblue;
+}
+
+.kanban{
+	display: flex;
+	margin: 50px 50px 100px 50px;
+	justify-content: center;
+	flex-direction: column;
+	gap: 2rem;
+}
+.kanban h2{
+	font-size: 30px;
+	color: aliceblue;
+}
+.kanban p{
+	font-size: 22px;
 	color: aliceblue;
 }
 
@@ -177,10 +196,16 @@ span{
 	font-size: 2rem;
 	margin-bottom: 2rem;
 }
+.testimonial-slide h4{
+	font-size: 1.4rem;
+	color: white;
+	text-align: center;
+}
 .testimonial-slide p{
 	font-size: 1.4rem;
 	color: white;
 	text-align: center;
+	margin-bottom: 2rem;
 }
 .testimonial-box .swiper-button-next,
 .testimonial-box .swiper-button-prev{
